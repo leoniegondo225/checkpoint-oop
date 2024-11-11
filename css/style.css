@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style du bouton "Aimer" */
+button.favorite {
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: grey;
+    cursor: pointer;
+}
+
+button.favorite.liked {
+    color: red;
+}
+
+/* Transition pour le changement de couleur */
+button.favorite {
+    transition: color 0.3s ease;
+}
